@@ -1,0 +1,13 @@
+.contact{
+    text-align: center;
+    margin: 50px 0;
+}
+.img{
+    width: 300px;
+    margin-right: 10px;
+}
+.allimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

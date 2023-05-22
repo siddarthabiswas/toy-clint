@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import MainPageitem from '../MainPageitem/MainPageitem';
 import { BeatLoader } from 'react-spinners';
 import './MainPage.css'
+import BestSeller from '../BestSeller/BestSeller';
 
 const MainPage = () => {
     const [muser, setMUser] = useState([])
@@ -67,6 +68,7 @@ const MainPage = () => {
                             muser.map(user => <MainPageitem key={user._id} user={user}></MainPageitem>)
                         }
                     </div>
+                    <BestSeller></BestSeller>
                 </div>
             }
         </div>
