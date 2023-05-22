@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import logo from '../../assets/logo1.png'
 import SearchItem from '../SearchItem/SearchItem';
 import './Navbar.css'
 import { NavLink } from 'react-router-dom';
@@ -24,7 +24,7 @@ function NavScrollExample() {
     const [current, setCurrent] = useState({});
 
     useEffect(() => {
-        fetch('https://toysarver.onrender.com/')
+        fetch('https://toy-cars.onrender.com/')
             .then(res => res.json())
             .then(data => {
                 setSearchApiData(data)
@@ -73,7 +73,7 @@ function NavScrollExample() {
         <div>
             <Navbar bg="light" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand to="/">Navbar scroll</Navbar.Brand>
+                    <Navbar.Brand to="/"><img src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -82,10 +82,13 @@ function NavScrollExample() {
                             navbarScroll
                         >
                             <NavLink to="/home">Home</NavLink>
+                            <NavLink to="/alltoys">All Toys</NavLink>
+                            <NavLink to="/mytoys">My Toys</NavLink>
                             {
                                 signin && <NavLink to="/">Admin</NavLink>
                             }
-                            <NavLink to="/createpage">Add item</NavLink>
+                            <NavLink to="/createpage">Add A Toy</NavLink>
+                            <NavLink to="/blog">Blog</NavLink>
                             {
                                 signin ? <NavLink to="/logout">Logout</NavLink> : <NavLink to="/login">Login</NavLink>
                             }

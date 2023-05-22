@@ -10,7 +10,7 @@ const ShowAllDetles = (props) => {
     const user = props.user;
     // delet
     const handelDelet = (id) => {
-        fetch(`https://toysarver.onrender.com/delet/${id}`, {
+        fetch(`https://toy-cars.onrender.com/delet/${id}`, {
             method: 'DELETE',
         });
     }
@@ -21,7 +21,7 @@ const ShowAllDetles = (props) => {
     // upded
     const handelUpded = (id) => {
         localStorage.setItem('id', id)
-        fetch(`https://toysarver.onrender.com/user/${id}`)
+        fetch(`https://toy-cars.onrender.com/user/${id}`)
             .then((response) => response.json())
             .then((data) => {
                 if (data) {

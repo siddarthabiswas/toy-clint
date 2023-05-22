@@ -9,7 +9,7 @@ const Home = () => {
     const [spin, setSpinner] = useState(true)
 
     useEffect(() => {
-        fetch('https://toysarver.onrender.com/')
+        fetch('https://toy-cars.onrender.com/')
             .then(req => req.json())
             .then(data => setUser(data))
         setSpinner(false)

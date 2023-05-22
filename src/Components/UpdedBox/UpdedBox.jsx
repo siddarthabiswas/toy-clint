@@ -16,7 +16,7 @@ const UpdedBox = () => {
     const onSubmit = (data, e) => {
         const id = localStorage.getItem('id')
 
-        fetch(`https://toysarver.onrender.com/user/${id}`, {
+        fetch(`https://toy-cars.onrender.com/user/${id}`, {
             method: 'PATCH',
             body: JSON.stringify(data),
             headers: {

@@ -25,7 +25,7 @@ const CreateUser = () => {
     const navigate = useNavigate()
 
     const handelsubmit = (e) => {
-        fetch('https://toysarver.onrender.com/postData', {
+        fetch('https://toy-cars.onrender.com/postData', {
             method: 'POST',
             body: JSON.stringify(form),
             headers: {

@@ -8,7 +8,7 @@ const MainPage = () => {
     const [muser, setMUser] = useState([])
     const [spin, setSpinner] = useState(true)
     useEffect(() => {
-        fetch('https://toysarver.onrender.com/')
+        fetch('https://toy-cars.onrender.com/')
             .then(req => req.json())
             .then(data => setMUser(data))
         setSpinner(false)
@@ -60,7 +60,7 @@ const MainPage = () => {
                         </Carousel>
 
                     </div>
-                    <div className='all-toy'><h3>All Toys</h3></div>
+                    <div className='all-toy mt-6'><h3>Gallery </h3></div>
 
                     <div className='item-card'>
                         {

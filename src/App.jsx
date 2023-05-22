@@ -10,6 +10,9 @@ import MainPage from './Components/MainPage/MainPage';
 import LoginForm from './Components/LoginForm/LoginForm';
 import Logout from './Components/Logout/Logout';
 import PrivetRouter from './Components/PrivetRouter/PrivetRouter';
+import Error from './Components/Error/Error';
+import Blog from './Components/Blog/Blog';
+import MyToys from './Components/MyToys/MyToys';
 
 export const Catagori = createContext();
 
@@ -23,11 +26,14 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Home></Home>}></Route>
             <Route path='/home' element={<MainPage></MainPage>}></Route>
+            <Route path='/mytoys' element={<PrivetRouter isSignin={signin}><MyToys></MyToys></PrivetRouter>}></Route>
             <Route path='/createpage' element={<PrivetRouter isSignin={signin}><CreateUser></CreateUser></PrivetRouter>}></Route>
             <Route path='/upded' element={<UpdedBox></UpdedBox>}></Route>
             <Route path='/show' element={<SharchResult></SharchResult>}></Route>
+            <Route path='/blog' element={<Blog></Blog>}></Route>
             <Route path='/login' element={<LoginForm></LoginForm>}></Route>
             <Route path='/logout' element={<Logout></Logout>}></Route>
+            <Route path='*' element={<Error></Error>}></Route>
           </Routes>
           <Footer></Footer>
         </BrowserRouter>
