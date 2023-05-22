@@ -1,0 +1,24 @@
+.logout{
+    width: 100%;
+    height: 80vh;
+    background-image: url('https://images.pexels.com/photos/207891/pexels-photo-207891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    filter: drop-shadow(2px 4px 6px black);
+    color: white;
+    
+}
+.logout button{
+    background-color: #0048ffe6;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    height: 40px;
+    width: 121px;
+    color: rgb(255, 255, 255);
+}

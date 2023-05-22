@@ -1,0 +1,42 @@
+.toy-search{
+    border: 1px solid black;
+    display: flex;
+    width: 30%;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.toy-search img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.toy-search div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.first{
+    border-right: 1px solid red;
+}
+.toy-search p{
+    margin: 0px;
+    padding-left: 10px;
+}
+@media (min-width: 0px) and (max-width: 700px) { 
+    .toy-search{
+        width: 100%;
+    }
+}
+.form_header{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}

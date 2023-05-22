@@ -1,0 +1,13 @@
+.active{
+    color: tomato !important;
+}
+a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #222222;
+}
+.navimage img{
+    width: 23px;
+    border-radius: 50%;
+}
+

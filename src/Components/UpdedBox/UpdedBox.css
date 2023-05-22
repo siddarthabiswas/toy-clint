@@ -1,0 +1,12 @@
+textarea {
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #140e0e;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+
+}
