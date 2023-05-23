@@ -83,9 +83,9 @@ function NavScrollExample() {
                         >
                             <NavLink to="/home">Home</NavLink>
                             <NavLink to="/alltoys">All Toys</NavLink>
-                            <NavLink to="/mytoys">My Toys</NavLink>
+                            <NavLink to="/mytoys"></NavLink>
                             {
-                                signin && <NavLink to="/">Admin</NavLink>
+                                signin && <NavLink to="/">My Toys</NavLink>
                             }
                             <NavLink to="/createpage">Add A Toy</NavLink>
                             <NavLink to="/blog">Blog</NavLink>

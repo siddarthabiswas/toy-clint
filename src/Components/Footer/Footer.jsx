@@ -42,8 +42,7 @@ const Footer = () => {
                   <img src={logo} alt="" />
                 </h6>
                 <p>
-                  Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                  consectetur adipisicing elit.
+                Play To Grow - this was the mantra that kickstarted a passionate dream called Toycra. A dream to ensure every child gets access to the most mindblowing, quality educational toys & games that are both developmental & super fun! 
                 </p>
               </MDBCol>
   
