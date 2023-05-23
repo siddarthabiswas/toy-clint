@@ -2,7 +2,6 @@ import React from 'react';
 import logo from '../../assets/logo1.png'
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
-
 const Footer = () => {
     return (
         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
@@ -63,11 +62,7 @@ const Footer = () => {
                   <h6>Twitter</h6>
                   </a>
                 </p>
-                <p>
-                  <a href='#!' className='text-reset'>
-                  <h6></h6>
-                  </a>
-                </p>
+                
               </MDBCol>
   
               <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
