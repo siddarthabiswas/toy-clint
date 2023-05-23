@@ -13,7 +13,7 @@ const MainPageitem = (props) => {
                     <Card.Text>
                         {user.toy_description}
                     </Card.Text>
-                    <ListGroup.Item> <div className='toys-d'><div>Toy Ratings :{user.toy_rating} ⭐</div><div>Toy Price :{user.toy_price} Tk </div></div> </ListGroup.Item>
+                    <ListGroup.Item> <div className='toys-d'><div>Toy Ratings :{user.toy_rating} ⭐</div><div>Toy Price :{user.toy_price} $</div></div> </ListGroup.Item>
                     <ListGroup.Item className='selar-img'> <img src={user.seller_img} alt="" /> </ListGroup.Item>
                     <Card.Title>{user.seller_name}</Card.Title>
                     <ListGroup.Item >{user.seller_email} </ListGroup.Item>
