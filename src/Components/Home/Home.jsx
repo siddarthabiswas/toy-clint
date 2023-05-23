@@ -18,7 +18,7 @@ const Home = () => {
         <div>
             {
                 spin ? <div className='spinner'>
-                    <BeatLoader color="#36d7b7" /></div> : <div><div className='all-toy'><h3>Edit Your Toys</h3></div>
+                    <BeatLoader color="#36d7b7" /></div> : <div><div className='all-toy'><h3></h3></div>
                     <div className='item-card'>
                         {
                             user.map(user => <ShowAllDetles key={user._id} user={user}></ShowAllDetles>)
