@@ -78,7 +78,7 @@ const CreateUser = () => {
 
 
                     <br />
-                    <button variant="primary" type="submit"></button>
+                    <button variant="primary" type="submit">Submit</button>
                 </form>
             </div>
 
