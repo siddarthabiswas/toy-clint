@@ -42,7 +42,7 @@ const Footer = () => {
                   <img src={logo} alt="" />
                 </h6>
                 <p>
-                Play To Grow - this was the mantra that kickstarted a passionate dream called Toycra. A dream to ensure every child gets access to the most mindblowing, quality educational toys & games that are both developmental & super fun! 
+                 Play To Grow - this was the mantra that kickstarted a passionate dream called Toycra. A dream to ensure every child gets access to the most mindblowing, quality educational toys & games that are both developmental & super fun!
                 </p>
               </MDBCol>
   
@@ -50,23 +50,22 @@ const Footer = () => {
                 <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
                 <p>
                   <a href='#!' className='text-reset'>
-                 
-                 
+                 <p>Facboook</p>
                   </a>
                 </p>
                 <p>
                   <a href='#!' className='text-reset'>
-                    React
+                  <h6>Instagram</h6>
                   </a>
                 </p>
                 <p>
                   <a href='#!' className='text-reset'>
-                    Vue
+                  <h6>Twitter</h6>
                   </a>
                 </p>
                 <p>
                   <a href='#!' className='text-reset'>
-                    Laravel
+                  <h6>Discord</h6>
                   </a>
                 </p>
               </MDBCol>
