@@ -65,7 +65,7 @@ const Footer = () => {
                 </p>
                 <p>
                   <a href='#!' className='text-reset'>
-                  <h6>Discord</h6>
+                  <h6></h6>
                   </a>
                 </p>
               </MDBCol>
